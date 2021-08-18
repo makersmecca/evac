@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700i');
+
+.circular-progress-bar {
+    position: relative;
+    margin: 0 auto;
+}
+
+.progress-percentage, .progress-text {
+    position:absolute;
+    width: 100%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top:30px;
+    padding-left:2%;
+    padding-right: 2%;
+}
+
+.progress-percentage {
+	font-size: 23px;
+    transform: translate(-50%, -85%);
+    
+    
+}
+
+.progress-text {
+    transform: translate(-50%, 0%);
+    color: #585858;
+    font-size: 21px;
+    font-family: 'Nanum Gothic';
+}

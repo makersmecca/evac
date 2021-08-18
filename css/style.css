@@ -1,0 +1,90 @@
+
+.logo{
+    font-family: 'Prompt';
+    font-size: 20px;
+    text-align: center;
+
+    color: #DDA5B6 ;
+
+    margin-top: 10%;
+    width: 100%;
+    
+}
+
+.heading{
+    text-align: center;
+    color:#cfd8dc;
+    font-family: 'Prompt';
+    font-size: 170%;
+
+    max-width: 100%;
+    margin: 50px;
+
+    padding-top:10px;
+    padding-bottom: 5px;
+
+}
+.state{
+    color:white;
+    font-family: 'syncopate';
+
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.stateText{
+    padding-top:50px;
+    padding-left:5px;
+
+    text-align: center;
+}
+#stateVal{
+    padding-top:50px;
+    padding-right:10px;
+
+    text-align: center;
+}
+
+.footerEl{
+    font-family: 'Nanum Gothic';
+    font-size: 15px;
+
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:50%;
+    margin-bottom: 8%;
+
+   
+    
+    border-radius: 10px;
+
+    display: flex;
+    justify-content:space-between;
+
+    /*remove underline and bullets*/
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.home{
+    margin-right:2px; 
+    color: #263238; 
+    font-weight: bold; 
+    text-shadow: 4px 5px 5px #546e7a;
+}
+
+.contact{
+    margin-right:2px; 
+    color: #263238; 
+    font-weight: bold; 
+    text-shadow: 4px 5px 5px #546e7a;
+}
+
+.about{
+    margin-right:2px; 
+    color: #263238; 
+    font-weight: bold; 
+    text-shadow: 4px 5px 5px #546e7a;
+}
+    
