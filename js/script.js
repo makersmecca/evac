@@ -9,22 +9,26 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
-
   
 let stateValue = document.getElementById("stateVal")
+
+//charging state variable 1-on 0-off
 let state = 0
+
 console.log("value of state")
 console.log(state)
 
 if(state == 0)
 {
+
     stateValue.textContent = "OFF"
+    stateValue.style.color = "#ff5252"
 }
 
 else
 {
     stateValue.textContent = "ON"
+    stateValue.style.color = "#64ffda"
 }
 
 
