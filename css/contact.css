@@ -1,0 +1,63 @@
+
+
+.contacts{
+    border-radius: 5px;
+    background-color: #263238;
+    box-shadow: 10px 10px 10px #546e7a;
+    color: white;
+    padding: 20px;
+
+    height:50%;
+    width:80%;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.name{
+    
+    display:flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .name{
+      flex-direction: column;
+    }
+  }
+
+#submit{
+    align-items: center;
+
+}
+
+#first{
+    border-radius: 2px;
+    border-width: 1px;
+    width: 100%;
+}
+#last{
+    border-radius: 2px;
+    border-width: 1px;
+    width: 100%;
+
+}
+
+#email{
+    border-radius: 2px;
+    border-width: 1px;
+    width: 100%;
+}
+
+#message{
+    width:100%;
+    padding:20px;
+
+}
+
+#submit{
+    margin-top:20px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #eceff1   ;
+}
