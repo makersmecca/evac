@@ -11,7 +11,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 //val percentage value
 let val;
-val=86
+val=6;
 
 $(document).ready(function() {
   
