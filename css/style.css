@@ -45,21 +45,18 @@ body{
 }
 
 .stateText{
-
-    padding:5px;
     padding-top:50px;
-    
-
+    margin-top:20px;
     text-align: center;
 }
 #stateVal{
     padding:5px;
     padding-top:50px;
     padding-right:15px;
+    margin-top:20px;
 
     text-align: center;
 }
-
 .footerEl{
     font-family: 'Nanum Gothic';
     font-size: 15px;
