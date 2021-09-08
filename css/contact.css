@@ -1,63 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Test Page for PWA"/>
+    	<meta name="author" content="Ayudh" />
+		<meta name="theme-color" content="#212121">
+		
+		<!--linking google fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Nanum Gothic' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+
+		
+		<!-- Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Bootstrap JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
 
 
-.contacts{
-    border-radius: 5px;
-    background-color: #263238;
-    box-shadow: 10px 10px 10px #546e7a;
-    color: white;
-    padding: 20px;
+		<!--linking css-->
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
 
-    height:50%;
-    width:80%;
+		<title>ChargeSpot Wireless Charger</title>
 
-    margin-left:auto;
-    margin-right:auto;
-}
 
-.name{
-    
-    display:flex;
-    flex-direction: row;
-}
+	</head>
+	
+	<body>
 
-@media (max-width: 800px) {
-    .name{
-      flex-direction: column;
-    }
-  }
 
-#submit{
-    align-items: center;
+		<nav class="navbar">
+			<a class="logo" href="/index.html">ChargeSpot</a>
+		</nav>
 
-}
+		<h1 class="heading">CONTACT US</h1>
+		<main>
+            <div class="contacts">
 
-#first{
-    border-radius: 2px;
-    border-width: 1px;
-    width: 100%;
-}
-#last{
-    border-radius: 2px;
-    border-width: 1px;
-    width: 100%;
+                <div class="name">
 
-}
+                    <div class="firstname">
+                        <p>First Name: &nbsp; &nbsp;<input type="text" id="first" placeholder="Enter First Name"> </p>
+                    </div>
 
-#email{
-    border-radius: 2px;
-    border-width: 1px;
-    width: 100%;
-}
+                    <div class="lastname">
+                       <p>Last Name: &nbsp; &nbsp;<input type="text" id="last" placeholder="Enter Last Name"> </p>
+                    </div>
 
-#message{
-    width:100%;
-    padding:20px;
 
-}
+                </div>
 
-#submit{
-    margin-top:20px;
-    border-radius: 5px;
-    border-width: 1px;
-    background-color: #eceff1   ;
-}
+                <div class="email">
+                    <p>Email Id: &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" id="email" placeholder="Enter Email Id"> </p>	
+                </div>
+
+                <div class="message">
+                    <p>Let's talk:</p>
+                    <textarea name="paragraph_text" id="message" cols="40" rows="8" placeholder="Write something"></textarea>
+                </div>
+                
+                <p><button id="submit" onclick="myFunction()">Submit</button></p>
+
+            </div>
+           
+
+		</main>
+
+
+        <script>
+            function myFunction()
+            {
+                
+            }
+        </script>
+	</body>
+
+	<!--linking progress bar js-->
+	<script src="js/progress.js"></script>
+
+	<!--linking script js-->
+	<script src="js/script.js" defer></script>
+	
+	<footer>
+		<ul class="footerEl">
+			<li><a class="home" href="/index.html">Dashboard</a> </li>
+			<li><a class="contact" href="/contacT.html">Contact</a></li>
+			<li><a class="about" href="/about.html">About</a></li>
+	
+		</ul>
+	</footer>
+</html>
