@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Test Page for PWA"/>
+    	<meta name="author" content="Ayudh" />
+		<meta name="theme-color" content="#212121">
+		
+		<!--linking google fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Nanum Gothic' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Bootstrap JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Circular-Progress-Bar CSS -->
+		<link rel="stylesheet" href="css/plugin.css">
+		<!-- Circular-Progress-Bar JS -->
+		<script src="js/plugin.js"></script>
+		<!--linking progress bar css-->
+		<link rel="stylesheet" href="css/progress.css">
+
+		<!--linking css-->
+		<link rel="stylesheet" href="css/style.css">
+
+		<title>E-Vac Wireless Charger</title>
+	</head>
+	
+	<body>
+		<nav class="navbar">
+			<a class="logo" href="/index.html">ChargeSpot</a>
+		</nav>
+
+		<h1 class="heading">DASHBOARD</h1>
+		<main>		
+			<article>
+				<div class="container">
+				<div class="row">
+				<div class="col-12 text-center">
+				<div class="my-progress-bar"></div>
+				</div>
+				</div>
+				</div> 
+			</article>
+			<div class="state">
+				<p class="stateText">CHARGING STATUS</p>
+				<div class="boxed">
+					<p id="stateVal">ON</p>
+				</div>
+			</div>	
+		</main>
+	</body>
+
+	<footer>
+		<ul class="footerEl">
+			<li><a class="home" href="/index.html">Dashboard</a> </li>
+			<li><a class="contact" href="/contact.html">Contact</a></li>
+			<li><a class="about" href="/about.html">About</a></li>
+	
+		</ul>
+	</footer>
+
+	<!--firebase link-->
+	<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js" defer></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js" defer></script>
+	<!--linking script js-->
+	<script src="js/script.js" defer></script>
+	<!--linking progress bar js-->
+	<script src="js/progress.js" defer></script>
+
+
+
+</html>
