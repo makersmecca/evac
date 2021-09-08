@@ -13,7 +13,7 @@
 let stateValue = document.getElementById("stateVal")
 
 //charging state variable 1-on 0-off
-let state = 0
+let state = 1
 
 console.log("value of state")
 console.log(state)
