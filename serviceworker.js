@@ -1,4 +1,4 @@
-const staticSimpleCounter = "chargespot_3"
+const staticSimpleCounter = "chargespot_2"
 const assets = [
     "/",
     "index.html",
