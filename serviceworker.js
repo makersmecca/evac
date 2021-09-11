@@ -1,4 +1,4 @@
-const staticSimpleCounter = "chargespot_3"
+const staticSimpleCounter = "chargespot_4"
 const assets = [
     "/",
     "index.html",
@@ -27,9 +27,7 @@ const assets = [
     "images/icon/48px.png",
     "images/icon/32px.png",
     "images/icon/24px.png",
-    "images/icon/16px.png",
-    "images/icon/icon.png"
-
+    "images/icon/16px.png"
 ]
 
 //install event
