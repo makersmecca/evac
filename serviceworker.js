@@ -1,4 +1,4 @@
-const staticSimpleCounter = "chargespot_v3"
+const staticChargeSpot = "chargespot_v3"
 const assets = [
     "/",
     "index.html",
@@ -41,7 +41,7 @@ self.addEventListener("install", installEvent =>
 {
     installEvent.waitUntil
     (
-        caches.open(staticSimpleCounter).then(cache=>
+        caches.open(staticChargeSpot).then(cache=>
             {
                 cache.addAll(assets)
                 console.log('caching assets')
@@ -56,7 +56,7 @@ self.addEventListener('activate', evt => {
     caches.keys().then(keys => {
       //console.log(keys);
       return Promise.all(keys
-        .filter(key => key !== staticSimpleCounter)
+        .filter(key => key !== staticChargeSpot)
         .map(key => caches.delete(key))
       );
     })
