@@ -6,7 +6,7 @@
     "scope": ".",
     "description": "Wireless Charger",
     "background_color": "#263238",
-    "theme_color": "#263238",
+    "theme_color": "#212121",
     "orientation": "portrait-primary",
     "icons":[
         {
