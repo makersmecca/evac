@@ -1,4 +1,4 @@
-const staticChargeSpot = "chargespot_v3.1"
+const staticChargeSpot = "chargespot_v3.2"
 const assets = [
     "/",
     "index.html",
@@ -6,13 +6,16 @@ const assets = [
     "contact.html",
 
     "css/style.css",
-    
+    "css/progress.css",
+    "css/plugin.css",
     "css/about.css",
     "css/contact.css",
 
-    "js/index.js",
-   
+    
+    "js/plugin.js",
+    "js/progress.js",
     "js/script.js",
+    
 
     "images/about_img/Ayudh.jpg",
     "images/about_img/Piyusha.jpg",
