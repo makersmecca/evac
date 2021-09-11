@@ -21,6 +21,8 @@ const assets = [
     "images/icon/192px.png",
     "images/icon/144px.png",
     "images/icon/128px.png",
+    "images/icon/96px.png",
+    "images/icon/72px.png",
     "images/icon/64px.png",
     "images/icon/48px.png",
     "images/icon/32px.png",
