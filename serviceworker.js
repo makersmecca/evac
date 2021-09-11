@@ -1,4 +1,4 @@
-const staticChargeSpot = "chargespot_v3"
+const staticChargeSpot = "chargespot_v3.1"
 const assets = [
     "/",
     "index.html",
