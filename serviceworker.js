@@ -1,4 +1,4 @@
-const staticSimpleCounter = "chargespot_1"
+const staticWirelessCharger = "chargespot_v2"
 const assets = [
     "/",
     "index.html",
@@ -35,22 +35,23 @@ self.addEventListener("install", installEvent =>
 {
     installEvent.waitUntil
     (
-        caches.open(staticSimpleCounter).then(cache=>
+        caches.open(staticWirelessCharger).then(cache=>
             {
                 cache.addAll(assets)
                 console.log('caching assets')
             })
     );
+    console.log('service worker installed');
 });
 
 // activate event
 self.addEventListener('activate', evt => {
-  //console.log('service worker activated');
+  console.log('service worker activated');
   evt.waitUntil(
     caches.keys().then(keys => {
       //console.log(keys);
       return Promise.all(keys
-        .filter(key => key !== staticSimpleCounter)
+        .filter(key => key !== staticWirelessCharger)
         .map(key => caches.delete(key))
       );
     })
