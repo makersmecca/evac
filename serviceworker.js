@@ -1,4 +1,5 @@
 const staticChargeSpot = "chargespot_v3.2"
+console.log('hello from service worker');
 const assets = [
     "/",
     "index.html",
@@ -6,10 +7,11 @@ const assets = [
     "contact.html",
 
     "css/style.css",
-    "css/progress.css",
-    "css/plugin.css",
     "css/about.css",
     "css/contact.css",
+    "css/progress.css",
+    "css/plugin.css",
+    
 
     
     "js/plugin.js",
