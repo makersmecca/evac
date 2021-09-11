@@ -1,0 +1,83 @@
+{
+    "name": "ChargeSpot Wireless Charger",
+    "short_name": "ChargeSpot",
+    "start_url": "index.html",
+    "display": "standalone",
+    "scope": ".",
+    "description": "Wireless Charger",
+    "background_color": "#263238",
+    "theme_color": "#263238",
+    "orientation": "portrait-primary",
+    "icons":[
+        {
+            "src": "/images/icon/512px.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"   
+        },
+        {
+            "src": "/images/icon/384px.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "any"   
+        },
+
+        {
+            "src": "/images/icon/256px.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any"
+        },
+        
+        {
+            "src": "/images/icon/192px.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        
+        {
+            "src": "/images/icon/144px.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/128px.png",
+            "type": "image/png",
+            "sizes": "128x128",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/64px.png",
+            "type": "image/png",
+            "sizes": "64x64",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/48px.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/32px.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/24px.png",
+            "type": "image/png",
+            "sizes": "24x24",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icon/16px.png",
+            "type": "image/png",
+            "sizes": "16x16",
+            "purpose": "any"
+        }
+
+    ]
+}
