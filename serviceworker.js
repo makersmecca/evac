@@ -25,7 +25,9 @@ const assets = [
     "images/icon/48px.png",
     "images/icon/32px.png",
     "images/icon/24px.png",
-    "images/icon/16px.png"
+    "images/icon/16px.png",
+    "images/icon/icon.png"
+
 ]
 
 //install event
