@@ -1,4 +1,4 @@
-const staticChargeSpot = "chargespot_v3.2"
+const staticChargeSpot = "chargespot_v3.5"
 console.log('hello from service worker');
 const assets = [
     "/",
