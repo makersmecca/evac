@@ -72,12 +72,6 @@
             "purpose": "any maskable"
         },
         {
-            "src": "/images/icon/48px.png",
-            "type": "image/png",
-            "sizes": "48x48",
-            "purpose": "any"
-        },
-        {
             "src": "/images/icon/32px.png",
             "type": "image/png",
             "sizes": "32x32",
