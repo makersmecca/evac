@@ -1,19 +1,24 @@
-const staticWirelessCharger = "chargespot_v2"
+const staticSimpleCounter = "chargespot_v3"
 const assets = [
     "/",
     "index.html",
     "about.html",
     "contact.html",
 
-    "style.css",
-    "progress.css",
-    "plugin.css",
-    "about.css",
-    "contact.css",
+    "css/style.css",
+    "css/progress.css",
+    "css/plugin.css",
+    "css/about.css",
+    "css/contact.css",
 
-    "index.js",
-    "plugin.js",
-    "script.js",
+    "js/index.js",
+    "js/plugin.js",
+    "js/script.js",
+
+    "images/about_img/Ayudh.jpg",
+    "images/about_img/Piyusha.jpg",
+    "images/about_img/Rohit.jpg",
+
 
     "images/icon/512px.png",
     "images/icon/384px.png",
@@ -28,6 +33,7 @@ const assets = [
     "images/icon/32px.png",
     "images/icon/24px.png",
     "images/icon/16px.png"
+
 ]
 
 //install event
@@ -35,23 +41,22 @@ self.addEventListener("install", installEvent =>
 {
     installEvent.waitUntil
     (
-        caches.open(staticWirelessCharger).then(cache=>
+        caches.open(staticSimpleCounter).then(cache=>
             {
                 cache.addAll(assets)
                 console.log('caching assets')
             })
     );
-    console.log('service worker installed');
 });
 
 // activate event
 self.addEventListener('activate', evt => {
-  console.log('service worker activated');
+  //console.log('service worker activated');
   evt.waitUntil(
     caches.keys().then(keys => {
       //console.log(keys);
       return Promise.all(keys
-        .filter(key => key !== staticWirelessCharger)
+        .filter(key => key !== staticSimpleCounter)
         .map(key => caches.delete(key))
       );
     })
