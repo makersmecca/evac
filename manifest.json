@@ -13,15 +13,14 @@
             "src": "/images/icon/512px.png",
             "type": "image/png",
             "sizes": "512x512",
-            "purpose": "any"   
+            "purpose": "any maskable"   
         },
         {
             "src": "/images/icon/384px.png",
             "type": "image/png",
             "sizes": "384x384",
-            "purpose": "any"   
+            "purpose": "any maskable"
         },
-
         {
             "src": "/images/icon/256px.png",
             "type": "image/png",
@@ -33,26 +32,44 @@
             "src": "/images/icon/192px.png",
             "type": "image/png",
             "sizes": "192x192",
-            "purpose": "any"
+            "purpose": "any maskable"
         },
         
         {
             "src": "/images/icon/144px.png",
             "type": "image/png",
             "sizes": "144x144",
-            "purpose": "any"
+            "purpose": "any "
         },
         {
             "src": "/images/icon/128px.png",
             "type": "image/png",
             "sizes": "128x128",
-            "purpose": "any"
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/icon/96px.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/icon/72px.png",
+            "type": "image/png",
+            "sizes": "72x72",
+            "purpose": "any maskable"
         },
         {
             "src": "/images/icon/64px.png",
             "type": "image/png",
             "sizes": "64x64",
             "purpose": "any"
+        },
+        {
+            "src": "/images/icon/48px.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "any maskable"
         },
         {
             "src": "/images/icon/48px.png",
@@ -82,7 +99,7 @@
             "src": "/images/icon/icon.png",
             "type": "image/png",
             "sizes": "512x512",
-            "purpose": "any"
+            "purpose": "any maskable"
         }
 
     ]
