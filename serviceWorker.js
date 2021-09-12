@@ -2,23 +2,19 @@ const staticChargeSpot = "chargespot_v3.7"
 console.log('hello from service worker');
 const assets = [
     "/",
-    "/index.html",
-    "/about.html",
-    "/contact.html",
+    "./index.html",
+    "./about.html",
+    "./contact.html",
 
-    "/css/style.css",
-    "/css/about.css",
-    "/css/contact.css",
-    "/css/progress.css",
-    "/css/plugin.css",
+    "./css/style.css",
+    "./css/about.css",
+    "./css/contact.css",
+  
+    "./js/script.js",
     
-    "/js/plugin.js",
-    "/js/progress.js",
-    "/js/script.js",
-    
-    "/images/about_img/Ayudh.jpg",
-    "/images/about_img/Piyusha.jpg",
-    "/images/about_img/Rohit.jpg",
+    "./images/about_img/Ayudh.jpg",
+    "./images/about_img/Piyusha.jpg",
+    "./images/about_img/Rohit.jpg",
     
     "https://code.jquery.com/jquery-3.4.1.min.js",
     "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
@@ -28,19 +24,19 @@ const assets = [
     "https://fonts.googleapis.com/css?family=Nanum Gothic",
     "https://fonts.googleapis.com/css?family=Prompt",
 
-    "/images/icon/512px.png",
-    "/images/icon/384px.png",
-    "/images/icon/256px.png",
-    "/images/icon/192px.png",
-    "/images/icon/144px.png",
-    "/images/icon/128px.png",
-    "/images/icon/96px.png",
-    "/images/icon/72px.png",
-    "/images/icon/64px.png",
-    "/images/icon/48px.png",
-    "/images/icon/32px.png",
-    "/images/icon/24px.png",
-    "/images/icon/16px.png"
+    "./images/icon/512px.png",
+    "./images/icon/384px.png",
+    "./images/icon/256px.png",
+    "./images/icon/192px.png",
+    "./images/icon/144px.png",
+    "./images/icon/128px.png",
+    "./images/icon/96px.png",
+    "./images/icon/72px.png",
+    "./images/icon/64px.png",
+    "./images/icon/48px.png",
+    "./images/icon/32px.png",
+    "./images/icon/24px.png",
+    "./images/icon/16px.png"
 
 ]
 
