@@ -1,4 +1,4 @@
-const staticChargeSpot = "chargespot_v3.6"
+const staticChargeSpot = "chargespot_v3.7"
 console.log('hello from service worker');
 const assets = [
     "/",
@@ -19,6 +19,10 @@ const assets = [
     "https://fonts.googleapis.com/css?family=Syncopate",
     "https://fonts.googleapis.com/css?family=Nanum Gothic",
     "https://fonts.googleapis.com/css?family=Prompt",
+    
+    "/images/about_img/Ayudh.jpg",
+    "/images/about_img/Piyusha.jpg",
+    "/images/about_img/Rohit.jpg",
 
     "/images/icon/512px.png",
     "/images/icon/384px.png",
