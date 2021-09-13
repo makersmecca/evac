@@ -22,7 +22,18 @@ body{
     
 }
 
+@media screen and (min-width: 601px) {     
+    .logo{
+      font-size: 50px;
+    }
+  }
+  
 
+  @media screen and (max-width: 600px) {
+    .logo {
+      font-size: 20px;
+    }
+}
 
 .heading{
     text-align: center;
