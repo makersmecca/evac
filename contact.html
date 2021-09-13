@@ -7,6 +7,8 @@
 		<meta name="description" content="Test Page for PWA"/>
     	<meta name="author" content="Ayudh" />
 		<meta name="theme-color" content="#212121">
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		
 		<!--linking google fonts-->
 		<link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
@@ -62,7 +64,7 @@
                     <textarea name="paragraph_text" id="message" cols="40" rows="8" placeholder="Write something"></textarea>
                 </div>
                 
-                <p><button id="submit" onclick="myFunction()">Subddmiidit</button></p>
+                <p><button id="submit" onclick="myFunction()">Submit</button></p>
 
             </div>
            
@@ -78,11 +80,15 @@
         </script>
 	</body>
 
+		<!--firebase link-->
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js" defer></script>
+		<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js" defer></script>
 	<!--linking progress bar js-->
-	<script src="js/progress.js"></script>
 
 	<!--linking script js-->
-	<script src="js/script.js" defer></script>
+
+	<script src="js/contact.js" defer></script>
+
 	
 	<footer>
 		<ul class="footerEl">
