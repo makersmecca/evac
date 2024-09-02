@@ -5,6 +5,8 @@ Companion PWA for Wireless Charger For EV Project
 * Uses Firebase as a database for storing 'Contact Page' related data, and retrieving status information.
 * Currently being hosted on Netlify (https://wirelesscharger.netlify.app)
 
+<img src="/wirelesscharger-poster.png">
+
 Changes/Upgrades TBM:
 * Make changes to the UI to make it compatible with desktop interfaces
 * Make adjustments to make it more responsive
